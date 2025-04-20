@@ -1,0 +1,69 @@
+main {
+  height: 100%;
+  width: 100%;
+  background-color: #2d2d2d;
+}
+
+section {
+  height: 100%;
+  width: 100%;
+}
+
+.converse-area {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.input-area {
+  width: 70%;
+  position: absolute;
+  border-radius: 7px;
+  bottom: 2rem;
+}
+input {
+  width: 75%;
+  border: 1px solid #3c3c3c;
+  padding: 0.5rem 0.7rem;
+  outline: none;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  color: aliceblue;
+}
+
+button {
+  margin: 0 1.25%;
+  width: 22.5%;
+  padding: 0.5em 0.7em;
+  background-color: #161616;
+  border-radius: 0.45rem;
+  border: none;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.messages {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1em;
+  padding: 0.5;
+  padding-bottom: 4rem;
+}
+
+.message {
+  width: fit-content;
+  padding: 0.5em 1em;
+  background-color: #4a4a4a;
+  border-radius: 0.5em;
+  color: aliceblue;
+  max-width: 75%;
+}
+
+.user{
+    align-self: flex-end;
+}
